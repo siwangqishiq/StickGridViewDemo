@@ -37,16 +37,16 @@ public class MainActivity extends Activity
         list.add(map2);
         
         Map<String,String> map3 = new HashMap<String,String>();
-        map3.put("head", "2");
+        map3.put("head", "1");
         Map<String,String> map4 = new HashMap<String,String>();
-        map4.put("head", "2");
+        map4.put("head", "1");
         list.add(map3);
         list.add(map4);
         
         for(int i=0;i<20;i++)
         {
             Map<String,String> map = new HashMap<String,String>();
-            map.put("head", (i+2)+"");
+            map.put("head", "2");
             
             list.add(map);
         }//end for i
